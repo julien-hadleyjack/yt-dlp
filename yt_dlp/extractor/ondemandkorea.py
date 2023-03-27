@@ -8,7 +8,7 @@ from ..utils import (
 
 
 class OnDemandKoreaIE(InfoExtractor):
-    _VALID_URL = r'https?://(?:www\.)?ondemandkorea\.com/(?P<id>[^/]+)\.html'
+    _VALID_URL = r'https?://(?:www\.|classic\.)?ondemandkorea\.com/(?P<id>[^/]+)\.html'
     _GEO_COUNTRIES = ['US', 'CA']
     _TESTS = [{
         'url': 'https://www.ondemandkorea.com/ask-us-anything-e351.html',
